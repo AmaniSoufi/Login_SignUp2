@@ -1,1 +1,6 @@
+# Specify Dart as the primary language
 *.dart linguist-language=Dart
+
+# Ignore build and other directories
+build/* linguist-vendored
+docs/* linguist-vendored
